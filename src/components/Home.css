@@ -21,4 +21,11 @@
     height: 30%;
     background-color: antiquewhite;
     border: black solid 2px;
+    display: flex;
+}
+
+.cell {
+    width: 50%;
+    height: 100%;
+    border: purple solid 2px;
 }
