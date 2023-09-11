@@ -23,7 +23,6 @@
 
 .cell {
   height: 150px;
-  border: purple solid 2px;
   display: flex;
   flex-direction: column;
   justify-content: center;
