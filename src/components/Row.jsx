@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchCurrent } from '../redux/pollution/pollutionSlice';
 import globalData from '../data/gps';
-import * as IMGS from '../imgs';
+import usa from '../imgs/usa.png';
 
 const Row = () => {
   const dispatch = useDispatch();
@@ -18,16 +18,17 @@ const Row = () => {
     console.log(pollution);
   }, [pollution]);
 
-  const background = {
-    background: `linear-gradient(rgba(0, 0, 0,.3), rgba(0, 0, 0,.3)), url(${IMGS.usa})`,
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'contain',
-  };
+//   const background = {
+//     backgroundImage: `url(${usa})`,
+//     backgroundColor: `rgba(0, 0, 0,0.8)`,    
+//     backgroundRepeat: 'no-repeat',
+//     backgroundSize: 'contain',
+//   };
 
   return pollution.data.map((country) => {
     const { co, no, nh3, o3, pm10, pm2_5, so2 } = country.pollution;
     return (
-      <div className="cell" style={background}>
+      <div className="cell" >
         <img src="" alt="" />
         <h2>{country.name}</h2>
         <div className="pullution">
