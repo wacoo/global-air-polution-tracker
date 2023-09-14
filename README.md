@@ -79,6 +79,14 @@ The Global Air Pollution Tracker is a React app that provides comprehensive info
 - User-friendly interface for easy navigation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🚀 Live Demo <a name="live-demo"></a>
+- Click <a href="https://pollution-tracker.onrender.com/">here</a> to open the live demo.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Project Presentation <a name="presentation"></a>
+- Click <a href="https://www.loom.com/share/ae25287989c14b74a288120288b1d3ae?sid=5838c917-0127-4754-843b-5ee4dab218d2">here</a> to open the presentation.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- GETTING STARTED -->
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -142,6 +150,7 @@ Feel free to check the [issues page](../../issues/).
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+- The design of the app is taken from one of Nelson Sakwa's works. You can reach him <a href="https://www.behance.net/sakwadesignstudio">here</a>
 - We want to thank all my clients for their patronage.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
