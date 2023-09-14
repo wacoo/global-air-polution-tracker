@@ -1,8 +1,18 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
+import City from './components/City';
 
 function App() {
   return (
-    <Home />
+    <BrowserRouter>
+    <Routes>
+      <Route path='/'>
+        <Route index  element={<Home />}/>
+        <Route path="/cities"  element={<City />}/>
+      </Route>
+
+    </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,10 +1,42 @@
+import Algeria from '../imgs/algeria.png';
+import Antartica from '../imgs/antartica.png';
+import Argentina from '../imgs/argentina.png';
+import Australia from '../imgs/australia.png';
+import Brazil from '../imgs/brazil.png';
+import Canada from '../imgs/canada.png';
+import Chile from '../imgs/chile.png';
+import China from '../imgs/china.png';
+import Colombia from '../imgs/colombia.png';
+import CostaRica from '../imgs/costa-rica.png';
+import Egypt from '../imgs/egypt.png';
+import Ethiopia from '../imgs/ethiopia.png';
+import Fiji from '../imgs/fiji.png';
+import France from '../imgs/france.png';
+import Germany from '../imgs/germany.png';
+import India from '../imgs/india.png';
+import Italy from '../imgs/italy.png';
+import Jamaica from '../imgs/jamaica.png';
+import Japan from '../imgs/japan.png';
+import Kenya from '../imgs/kenya.png';
+import Mexico from '../imgs/mexico.png';
+import NewZealand from '../imgs/new-zealand.png';
+import Nigeria from '../imgs/nigeria.png';
+import PapuaNewGuinea from '../imgs/papua-new-guinea.png';
+import Peru from '../imgs/peru.png';
+import SaudiArabia from '../imgs/saudi-arabia.png';
+import SouthAfrica from '../imgs/south-africa.png';
+import SouthKorea from '../imgs/south-korea.png';
+import Spain from '../imgs/spain.png';
+import UnitedKingdom from '../imgs/united-kingdom.png';
+import USA from '../imgs/usa.png';
+
 const globalData = {
   countries: [
     {
       name: 'United States',
       continent: 'North America',
       gps: [37.0902, -95.7129],
-      map: require('../imgs/usa.png').default,
+      map: USA,
       cities: [
         {
           name: 'New York City',
@@ -32,7 +64,7 @@ const globalData = {
       name: 'Canada',
       continent: 'North America',
       gps: [56.1304, -106.3468],
-      map: require('../imgs/canada.png').default,
+      map: Canada,
       cities: [
         {
           name: 'Toronto',
@@ -60,7 +92,7 @@ const globalData = {
       name: 'Mexico',
       continent: 'North America',
       gps: [23.6345, -102.5528],
-      map: require('../imgs/mexico.png').default,
+      map: Mexico,
       cities: [
         {
           name: 'Mexico City',
@@ -88,7 +120,7 @@ const globalData = {
       name: 'Jamaica',
       continent: 'North America',
       gps: [18.1096, -77.2975],
-      map: require('../imgs/jamaica.png').default,
+      map: Jamaica,
       cities: [
         {
           name: 'Kingston',
@@ -115,6 +147,7 @@ const globalData = {
     {
       name: 'Costa Rica',
       continent: 'North America',
+      map: CostaRica,
       gps: [9.7489, -83.7534],
       cities: [
         {
@@ -143,7 +176,7 @@ const globalData = {
       name: 'Brazil',
       continent: 'South America',
       gps: [-14.235, -51.9253],
-      map: require('../imgs/brazil.png').default,
+      map: Brazil,
       cities: [
         {
           name: 'Sao Paulo',
@@ -171,7 +204,7 @@ const globalData = {
       name: 'Argentina',
       continent: 'South America',
       gps: [-38.4161, -63.6167],
-      map: require('../imgs/argentina.png').default,
+      map: Argentina,
       cities: [
         {
           name: 'Buenos Aires',
@@ -199,7 +232,7 @@ const globalData = {
       name: 'Colombia',
       continent: 'South America',
       gps: [4.5709, -74.2973],
-      map: require('../imgs/colombia.png').default,
+      map: Colombia,
       cities: [
         {
           name: 'Bogota',
@@ -227,7 +260,7 @@ const globalData = {
       name: 'Peru',
       continent: 'South America',
       gps: [-9.1899, -75.0152],
-      map: require('../imgs/peru.png').default,
+      map: Peru,
       cities: [
         {
           name: 'Lima',
@@ -255,7 +288,7 @@ const globalData = {
       name: 'Chile',
       continent: 'South America',
       gps: [-35.6751, -71.543],
-      map: require('../imgs/chile.png').default,
+      map: Chile,
       cities: [
         {
           name: 'Santiago',
@@ -283,7 +316,7 @@ const globalData = {
       name: 'Nigeria',
       continent: 'Africa',
       gps: [9.082, 8.6753],
-      map: require('../imgs/nigeria.png').default,
+      map: Nigeria,
       cities: [
         {
           name: 'Lagos',
@@ -311,7 +344,7 @@ const globalData = {
       name: 'Egypt',
       continent: 'Africa',
       gps: [26.8206, 30.8025],
-      map: require('../imgs/egypt.png').default,
+      map: Egypt,
       cities: [
         {
           name: 'Cairo',
@@ -339,7 +372,7 @@ const globalData = {
       name: 'South Africa',
       continent: 'Africa',
       gps: [-30.5595, 22.9375],
-      map: require('../imgs/south-africa.png').default,
+      map: SouthAfrica,
       cities: [
         {
           name: 'Johannesburg',
@@ -367,7 +400,7 @@ const globalData = {
       name: 'Algeria',
       continent: 'Africa',
       gps: [28.0339, 1.6596],
-      map: require('../imgs/algeria.png').default,
+      map: Algeria,
       cities: [
         {
           name: 'Algiers',
@@ -395,7 +428,7 @@ const globalData = {
       name: 'Kenya',
       continent: 'Africa',
       gps: [-1.2864, 36.8172],
-      map: require('../imgs/kenya.png').default,
+      map: Kenya,
       cities: [
         {
           name: 'Nairobi',
@@ -423,7 +456,7 @@ const globalData = {
       name: 'Ethiopia',
       continent: 'Africa',
       gps: [9.145, 40.4897],
-      map: require('../imgs/ethiopia.png').default,
+      map: Ethiopia,
       cities: [
         {
           name: 'Addis Ababa',
@@ -451,7 +484,7 @@ const globalData = {
       name: 'China',
       continent: 'Asia',
       gps: [35.8617, 104.1954],
-      map: require('../imgs/china.png').default,
+      map: China,
       cities: [
         {
           name: 'Shanghai',
@@ -479,7 +512,7 @@ const globalData = {
       name: 'India',
       continent: 'Asia',
       gps: [20.5937, 78.9629],
-      map: require('../imgs/india.png').default,
+      map: India,
       cities: [
         {
           name: 'Mumbai',
@@ -507,7 +540,7 @@ const globalData = {
       name: 'Japan',
       continent: 'Asia',
       gps: [36.2048, 138.2529],
-      map: require('../imgs/japan.png').default,
+      map: Japan,
       cities: [
         {
           name: 'Tokyo',
@@ -535,7 +568,7 @@ const globalData = {
       name: 'South Korea',
       continent: 'Asia',
       gps: [35.9078, 127.7669],
-      map: require('../imgs/south-korea.png').default,
+      map: SouthKorea,
       cities: [
         {
           name: 'Seoul',
@@ -563,7 +596,7 @@ const globalData = {
       name: 'Saudi Arabia',
       continent: 'Asia',
       gps: [23.8859, 45.0792],
-      map: require('../imgs/saudi-arabia.png').default,
+      map: SaudiArabia,
       cities: [
         {
           name: 'Riyadh',
@@ -591,7 +624,7 @@ const globalData = {
       name: 'Germany',
       continent: 'Europe',
       gps: [51.1657, 10.4515],
-      map: require('../imgs/germany.png').default,
+      map: Germany,
       cities: [
         {
           name: 'Berlin',
@@ -619,7 +652,7 @@ const globalData = {
       name: 'United Kingdom',
       continent: 'Europe',
       gps: [55.3781, -3.436],
-      map: require('../imgs/united-kingdom.png').default,
+      map: UnitedKingdom,
       cities: [
         {
           name: 'London',
@@ -647,7 +680,7 @@ const globalData = {
       name: 'France',
       continent: 'Europe',
       gps: [46.6033, 1.8883],
-      map: require('../imgs/france.png').default,
+      map: France,
       cities: [
         {
           name: 'Paris',
@@ -675,7 +708,7 @@ const globalData = {
       name: 'Spain',
       continent: 'Europe',
       gps: [40.4637, -3.7492],
-      map: require('../imgs/spain.png').default,
+      map: Spain,
       cities: [
         {
           name: 'Madrid',
@@ -703,7 +736,7 @@ const globalData = {
       name: 'Italy',
       continent: 'Europe',
       gps: [41.8719, 12.5674],
-      map: require('../imgs/italy.png').default,
+      map: Italy,
       cities: [
         {
           name: 'Rome',
@@ -731,7 +764,7 @@ const globalData = {
       name: 'Australia',
       continent: 'Oceania',
       gps: [-25.2744, 133.7751],
-      map: require('../imgs/australia.png').default,
+      map: Australia,
       cities: [
         {
           name: 'Sydney',
@@ -759,7 +792,7 @@ const globalData = {
       name: 'New Zealand',
       continent: 'Oceania',
       gps: [-40.9006, 174.886],
-      map: require('../imgs/new-zealand.png').default,
+      map: NewZealand,
       cities: [
         {
           name: 'Auckland',
@@ -787,7 +820,7 @@ const globalData = {
       name: 'Fiji',
       continent: 'Oceania',
       gps: [-17.7134, 178.065],
-      map: require('../imgs/fiji.png').default,
+      map: Fiji,
       cities: [
         {
           name: 'Suva',
@@ -815,7 +848,7 @@ const globalData = {
       name: 'Papua New Guinea',
       continent: 'Oceania',
       gps: [-6.314993, 143.95555],
-      map: require('../imgs/papua-new-guinea.png').default,
+      map: PapuaNewGuinea,
       cities: [
         {
           name: 'Port Moresby',
@@ -871,7 +904,7 @@ const globalData = {
       name: 'Antarctica',
       continent: 'Antarctica',
       gps: [90, 0],
-      map: require('../imgs/antartica.png').default,
+      map: Antartica,
       cities: [
         {
           name: 'Northern part',
