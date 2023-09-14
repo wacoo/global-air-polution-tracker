@@ -44,17 +44,15 @@ const pollutionSlice = createSlice({
       state.selectedCountry = action.payload;
     },
     getFiltered: (state, action) => {
-      if(state.tempHolder.length === 0) {
-        state.tempHolder = state.countries;        
+      if (state.tempHolder.length === 0) {
+        state.tempHolder = state.countries;
       }
-      
+
       if (action.payload.length === 0) {
         state.countries = state.tempHolder;
       }
-      state.countries = state.countries.filter((country) => {
-        return country.name.startsWith(action.payload);
-      })
-    }
+      state.countries = state.countries.filter((country) => country.name.startsWith(action.payload));
+    },
   },
   extraReducers: (builder) => {
     builder
@@ -74,7 +72,7 @@ const pollutionSlice = createSlice({
         state.isLoading = false;
         const cityData = action.payload;
         const cityIndex = state.selectedCountry.cities.findIndex(
-          (city) => city.name === cityData.name
+          (city) => city.name === cityData.name,
         );
         if (cityIndex !== -1) {
           state.selectedCountry.cities[cityIndex] = cityData;
@@ -82,10 +80,12 @@ const pollutionSlice = createSlice({
       })
       .addCase(fetchCityData.rejected, (state, action) => {
         state.error = action.error.message;
-      })
+      });
   },
 });
 
 export default pollutionSlice.reducer;
 export { fetchCountryData, fetchCityData };
-export const { setSelected, getFiltered, setFetchType, clearState, setHistoryDateUnix } = pollutionSlice.actions;
+export const {
+  setSelected, getFiltered, setFetchType, clearState, setHistoryDateUnix,
+} = pollutionSlice.actions;

@@ -5,13 +5,13 @@ import City from './components/City';
 function App() {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path='/'>
-        <Route index  element={<Home />}/>
-        <Route path="/cities"  element={<City />}/>
-      </Route>
+      <Routes>
+        <Route path="/">
+          <Route index element={<Home />} />
+          <Route path="/cities" element={<City />} />
+        </Route>
 
-    </Routes>
+      </Routes>
     </BrowserRouter>
   );
 }
