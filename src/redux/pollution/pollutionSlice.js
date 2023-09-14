@@ -51,7 +51,8 @@ const pollutionSlice = createSlice({
       if (action.payload.length === 0) {
         state.countries = state.tempHolder;
       }
-      state.countries = state.countries.filter((country) => country.name.startsWith(action.payload));
+      state.countries = state.countries.filter((country) => (
+        country.name.startsWith(action.payload)));
     },
   },
   extraReducers: (builder) => {

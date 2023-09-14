@@ -23,7 +23,7 @@
 }
 
 .main-area input {
-  width: calc(100vw - 24px);
+  width: calc(100vw - 30px);
   height: 40px;
   background-color: #004d00;
   text-align: center;
@@ -40,14 +40,14 @@
 }
 
 .sub-area {
-  width: 100%;
-  margin: 0 12px;
+  width: calc(100% - 12px);
+  margin: 0 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .cell {
-  height: 150px;
+  height: 180px;
   display: flex;
   flex-direction: column;
   justify-content: center;
