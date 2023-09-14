@@ -27,10 +27,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="./src/images/logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./src/imgs/logo.png" alt="logo" width="180"  height="auto" />
   <br/>
 
-  <h3><b>[Project Title]</b></h3>
+  <h3><b>The Global Air Pollution Tracker</b></h3>
 
 </div>
 
@@ -56,22 +56,27 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION  -->
 
-# 📖 [Project Title] <a name="about-project"></a>
+# 📖 The Global Air Pollution Tracker <a name="about-project"></a>
 
-[Project Description]
-This template is a react project with linters configuration for react and redux. However, it doesn't include redux. It has to be installed manually if needed. 
+
+The Global Air Pollution Tracker is a React app that provides comprehensive information on air pollution levels across the globe. It features a curated selection of five countries from each continent, along with data on the gasses that contribute to air pollution. The home page displays these countries, along with their respective API data, allowing users to quickly assess pollution levels. By clicking on a country, users can explore five cities within that country and access detailed pollution data for each city. The app also includes a convenient search feature that enables users to easily find specific countries. With the Global Air Pollution Tracker, users can stay informed about air quality worldwide and make informed decisions to protect their health and the environment.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 - HTML/CSS/JS/JSX
-- [Stack: React/Redux/React-Redux/Router]
+- Stack: React/Redux/React-Redux/Router
 
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 [List of key features of the application]
+- Track air pollution levels globally.
+- Display countries and their API data
+- Explore cities within each country
+- Search for countries using a search field
+- User-friendly interface for easy navigation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
@@ -94,9 +99,9 @@ Example command:
 
 ### Setup
 Clone the repository to desired directory on local computer.
-> `git clone https://github.com/wacoo/<project-name>`
+> `git clone https://github.com/wacoo/global-air-polution-tracker`
 
-> `cd <project-name>`
+> `cd global-air-polution-tracker`
 
 > `npm install`
 
@@ -112,7 +117,8 @@ Clone the repository to desired directory on local computer.
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-[List of future works]
+- Add more countries and cities
+- Add pollution history and future forecast
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
