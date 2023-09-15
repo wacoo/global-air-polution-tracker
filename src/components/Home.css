@@ -23,7 +23,7 @@
 }
 
 .main-area input {
-  width: calc(100vw - 30px);
+  width: calc(100vw - 24px);
   height: 40px;
   background-color: #004d00;
   text-align: center;
@@ -40,14 +40,14 @@
 }
 
 .sub-area {
-  width: calc(100% - 12px);
-  margin: 0 30px;
+  width: 100%;
+  margin: 0 12px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .cell {
-  height: 180px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,14 +70,14 @@
 .cell-detail {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 11px;
   padding: 12px;
 }
 
 .cell h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
-  margin: 8px;
+  margin: -4px;
 }
 
 .inside-icon-wrapper {
