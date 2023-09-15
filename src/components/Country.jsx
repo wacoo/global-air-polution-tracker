@@ -31,7 +31,6 @@ const Country = () => {
   };
 
   const handleClick = (country) => {
-    // console.log(pollution);
     dispatch(setSelected(country));
     navigate('/cities');
   };

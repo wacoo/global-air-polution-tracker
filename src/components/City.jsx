@@ -18,7 +18,6 @@ const City = () => {
   }, [dispatch, selectedCountry.cities]);
 
   useEffect(() => {
-    // console.log(selectedCountry.cities);
   }, [selectedCountry]);
 
   return (
