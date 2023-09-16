@@ -28,17 +28,17 @@ const fakeData = [
       png: '',
     },
     capital: {
-        name: 'Mexico City',
-        gps: [19.4326, -99.1332],
-        pollution: {
-          co: '200',
-          no: '30',
-          nh3: '0.5',
-          o3: '600',
-          pm10: '12',
-          pm2_5: '0.6',
-          so2: '23',
-        },
+      name: 'Mexico City',
+      gps: [19.4326, -99.1332],
+      pollution: {
+        co: '200',
+        no: '30',
+        nh3: '0.5',
+        o3: '600',
+        pm10: '12',
+        pm2_5: '0.6',
+        so2: '23',
+      },
     },
     pollution: {
       co: '200',
