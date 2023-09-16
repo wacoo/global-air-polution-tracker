@@ -1,3 +1,8 @@
+body {
+  min-height: 98vh;
+  background-color: #004d00;
+}
+
 .container {
   width: 100%;
   display: flex;
@@ -47,7 +52,7 @@
 }
 
 .cell {
-  height: 150px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;

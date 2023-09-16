@@ -16,7 +16,7 @@ exports[`Test components render Tests City 1`] = `
     </a>
     <div>
       <h2>
-        United States
+        Mexico
       </h2>
       <img
         alt=""
@@ -31,55 +31,28 @@ exports[`Test components render Tests City 1`] = `
       className="cell-detail"
     >
       <h2>
-        New York City
+        Mexico City
       </h2>
       <div
         className="data"
       >
         <span>
-          CO:  NO: 
+          CO: 200 NO: 30
         </span>
         <br />
         <span>
-          NH3: 0 O3: 
+          NH3: 0.5 O3: 600
         </span>
         <br />
         <span>
-          PM10:  PM2_5: 
+          PM10: 12 PM2_5: 0.6
         </span>
         <br />
         <span>
-          SO2: 
+          SO2: 23
         </span>
       </div>
     </div>
-    <div
-      className="cell-detail"
-    >
-      <h2>
-        Los Angeles
-      </h2>
-      <div
-        className="data"
-      >
-        <span>
-          CO:  NO: 
-        </span>
-        <br />
-        <span>
-          NH3: 0 O3: 
-        </span>
-        <br />
-        <span>
-          PM10:  PM2_5: 
-        </span>
-        <br />
-        <span>
-          SO2: 
-        </span>
-      </div>
-    </div>
-    ;
   </div>
 </div>
 `;
@@ -107,83 +80,7 @@ exports[`Test components render Tests Home 1`] = `
         Object {
           "backgroundImage": "url()",
           "backgroundRepeat": "no-repeat",
-          "backgroundSize": "contain",
-        }
-      }
-      type="button"
-    >
-      <div
-        className="inside-icon-wrapper"
-      >
-        <i
-          className="fa fa-arrow-circle-right"
-        />
-      </div>
-      <div
-        className=""
-      >
-        <h2>
-          United States
-        </h2>
-        <div
-          className="pullution"
-        >
-          CO: 200 NO: 30
-          <br />
-          NO2: undefined NH3: 0.5
-          <br />
-          O3: 600 PM10: 12
-          <br />
-          PM2_5: 0.6 SO2: 23
-        </div>
-      </div>
-    </button>
-    <button
-      className="cell"
-      onClick={[Function]}
-      style={
-        Object {
-          "backgroundImage": "url()",
-          "backgroundRepeat": "no-repeat",
-          "backgroundSize": "contain",
-        }
-      }
-      type="button"
-    >
-      <div
-        className="inside-icon-wrapper"
-      >
-        <i
-          className="fa fa-arrow-circle-right"
-        />
-      </div>
-      <div
-        className=""
-      >
-        <h2>
-          Canada
-        </h2>
-        <div
-          className="pullution"
-        >
-          CO: 200 NO: 30
-          <br />
-          NO2: undefined NH3: 0.5
-          <br />
-          O3: 600 PM10: 12
-          <br />
-          PM2_5: 0.6 SO2: 23
-        </div>
-      </div>
-    </button>
-    <button
-      className="cell"
-      onClick={[Function]}
-      style={
-        Object {
-          "backgroundImage": "url()",
-          "backgroundRepeat": "no-repeat",
-          "backgroundSize": "contain",
+          "backgroundSize": "50px",
         }
       }
       type="button"
