@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
 import './City.css';
 import { v4 as uuidv4 } from 'uuid';
-
+/* eslint-disable jsx-a11y/control-has-associated-label */
 const City = () => {
   const selectedCountry = useSelector(
     (state) => state.pollution.selectedCountry,
