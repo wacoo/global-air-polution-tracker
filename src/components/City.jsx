@@ -21,7 +21,7 @@ const City = () => {
         </a>
         <div>
           <h2>{selectedCountry.name.common}</h2>
-          <img src={selectedCountry.flags.png} alt="" />
+          <img src={selectedCountry.flags.png} alt="Country Flag" />
         </div>
       </div>
       <div className="city-sub">
